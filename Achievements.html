@@ -1,0 +1,349 @@
+<html>
+<head>
+    <title> Achievements </title>
+
+    <style>
+
+body{
+background-color: rgb(172, 225, 246);
+background-size: contain;    
+}
+
+        .navbar a {
+            color: rgb(158, 199, 249);
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            padding: 12px;
+            margin-left: -5px;
+            z-index: 20;
+        }
+
+        .navbar li {
+            border-radius: 10px;
+            margin-left: 10px;
+        }
+
+        .navbar ul {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 2vh;
+            list-style-type: none;
+            color: black;
+        }
+
+            .navbar ul li a {
+                margin: 0;
+                -webkit-text-stroke: 1px;
+             -webkit-text-stroke-color: rgb(0, 60, 100);
+            }
+
+        nav {
+            position: fixed;
+            background-color: rgb(135, 172, 214);
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            left: 0px;
+        }
+
+        .title {
+            position: fixed;
+            top: 0px;
+            background-color: rgb(96, 117, 156);
+            width: 100%;
+            height: 10px;
+            left: 0px;
+        }
+
+
+        .title2 {
+            position: fixed;
+            top: 142px;
+            background-color: rgb(96, 117, 156);
+            width: 100%;
+            height: 10px;
+            left: 0px;
+        }
+
+        div {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-align: center;
+        }
+
+        nav ul li {
+            margin: 2px;
+            float: left;
+            transition: 1s;
+        }
+
+            nav ul li:hover {
+                background-color: rgb(85, 126, 173);
+                border-width: 20px;
+                text-align: center;
+                color: wheat;
+                -webkit-text-stroke: 1px;
+                -webkit-text-stroke-color: rgb(0, 60, 100);
+                font-size: 30px;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                display: inline-block;
+                transition: 0.8s;
+            }
+
+
+        .ddcontent a {
+            margin: 2px;
+            transition: 0.8s;
+            border-radius: 100px;
+        }
+
+        nav ul li:hover .ddcontent a {
+            font-size: 20px;
+        }
+
+        nav ul li .ddcontent a:hover {
+            font-size: 30px;
+            text-align: center;
+            background-color: rgb(126, 181, 244);
+        }
+
+        a {
+            display: block;
+            text-decoration: none;
+        }
+
+        .dropdown {
+            display: inline-block;
+            background-color: rgb(79, 125, 176);
+            border-radius: 100px;
+        }
+
+        .ddcontent {
+            display: none;
+            border-radius: 10px;
+            background-color: rgb(91, 141, 198);
+            position: absolute;
+        }
+
+        .dropdown:hover .ddcontent {
+            display: block;
+        }
+
+        .dive {
+            position: fixed;
+            -webkit-text-stroke: 2px;
+            -webkit-text-stroke-color: rgb(81, 102, 125);
+            width: 100%;
+            position: relative;
+            top: 0%;
+            font-size: 20px;
+            color: antiquewhite;
+        
+        
+            position: relative;
+            left: -100px;
+            top: -5px;
+        }
+
+        
+
+        p {
+            background-color: rgb(81, 164, 252);
+            width: 150px;
+            height: 79px;
+            border-radius: 20px;
+            color: rgb(122, 170, 179);
+            align-items: center;
+            -webkit-text-stroke-color: rgb(34, 68, 104);
+            -webkit-text-stroke-width: 1px;
+            font-size: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        h2 {
+            background-color: rgb(81, 164, 252);
+            width: 200px;
+            height: 20x;
+            border-radius: 20px;
+            align-items: center;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-stretch: expanded;
+            color: aliceblue;
+            -webkit-text-stroke-color: rgb(77, 77, 77);
+            -webkit-text-stroke-width: 1px;
+        }
+
+        h1 {
+
+            align-content: center;
+            color: rgb(56, 189, 255);
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 90px;
+        }
+
+        h2 {
+
+            align-content: center;
+            color: rgb(138, 171, 255);
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            -webkit-text-stroke-color:rgb(34, 68, 104) ;
+            
+        }
+        .quarter{
+            -webkit-text-stroke-width: 3px;
+            -webkit-text-stroke-color: rgb(0, 60, 100);
+        }
+
+        .p {
+
+            align-content: center;
+            font-family: 'Lucida Sans';
+            font-size: 12px;
+        }
+
+
+
+        img {
+            align-items: center;        
+        }
+
+.pic{
+    border-radius: 30px;
+}
+    </style>
+</head>
+
+<body>
+
+    <div class="title">
+
+        <h4> </h4>
+    </div>
+    <div class="title1">
+
+        <h4> </h4>
+    </div>
+    <div class="title2">
+
+        <h4> </h4>
+    </div>
+
+
+    <nav class="navbar">
+        <ul>
+
+            <img class="logo" src="logo.png" width="110" height="70">
+            <li class="dropdown">
+                <a href="ano">Advisers and Officers</a>
+                <div class="ddcontent">
+                    <a href="adv.html">Advisers</a>
+                    <a href="off.html">Class Officers</a>
+
+                </div>
+            </li>
+
+
+            <li class="dropdown">
+                <a href="classpic.html">Class Pictures</a>
+
+
+                </div>
+            </li>
+
+            <li class="dropdown"> <a href="Events.html">Events</a>
+            <li class="dropdown">
+                <a href="Achievements.html">Achievements</a>
+            <li class="dropdown">
+                <a href="index.html">Homepage</a>
+
+                <div class="ddcontent"> </div>
+    </nav>
+
+
+<center>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<h1 class="quarter"> 1st Quarter </h1>
+
+    <h2> With Honors </h2>
+    <p>
+        <b> Boys: 9 </b>
+        <br>
+        <b> Girls: 5 </b>
+        <br>
+        <b> Total: 14 </b>
+    </p>
+    <br>
+    <br>
+
+    <h2> Extra Curricular Awards </h2>
+
+    <img class="pic" src="1.png" height="400" width="600">
+    <br>
+    <br>
+    <img  class="pic" src="2.png" height="400" width="600">
+    <br>
+    <br>
+    <img class="pic" src="3.png" height="400" width="600">
+    <br>
+    <br>
+    <img class="pic" src="4.png" height="400" width="600">
+    <br>
+    <br>
+    <img class="pic" src="5.png" height="400" width="600">
+    <br>
+    <br>
+    <img class="pic" src="6.png" height="400" width="600">
+    <br>
+    <br>
+    <img class="pic" src="7.png" height="400" width="600">
+    <br>
+    <br>
+    <img class="pic" src="8.png" height="400" width="600">
+    <br>
+    <img class="pic" src="9.png" height="400" width="600">
+    <br>
+    <br>
+    <img class="pic" src="10.png" height="400" width="600">
+    <br>
+    <br>
+    <img class="pic" src="11.png" height="400" width="600">
+    <br>
+    <br>
+    <img class="pic" src="12.png" height="400" width="600">
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+    <h1 class="quarter"> 2nd Quarter </h1>
+    <br>
+
+
+    <h2> With Honors </h2>
+    <p>
+        <b> Boys: 11 </b>
+        <br>
+        <b> Girls: 7 </b>
+        <br>
+        <b> Total: 18 </b>
+    </p>
+    <br>
+    <br>
+
+    <h2> Extra Curricular Awards </h2>
+    <div class="pic">
+    <img class="pic" src="1 yow.png" height="400" width="600">
+    <br>
+    <br>
+    <img class="pic" src="2 yow.png" height="400" width="600">
+    </div>
+    </body>
+</center>
+</html>
